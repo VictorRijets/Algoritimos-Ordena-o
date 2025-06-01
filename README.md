@@ -31,4 +31,33 @@
 #
 # Bubble Sort
 
+°Explicação:
+
+O Bubble Sort (ou ordenação por bolha) é um algoritmo simples que funciona comparando pares de elementos vizinhos e trocando-os de lugar se estiverem na ordem errada. Esse processo se repete várias vezes até que a lista esteja ordenada.
+O nome "bolha" vem da ideia de que os valores maiores "sobem" para o final da lista a cada passada, como uma bolha subindo na água.
+
+° Pontos Positivos
+
+ 1. Muito fácil de entender e implementar
+    Ideal pra quem tá começando com algoritmos.
+
+ 2. Pode parar antes do final se a lista já estiver ordenada
+    Dá pra otimizar com uma flag pra detectar se houve troca.
+
+ 3. Estável
+    Mantém a ordem dos elementos iguais (importante em ordenações por múltiplos critérios).
+
+° Pontos Negativos
+
+  1. Muito lento em listas grandes
+     Tem complexidade O(n²) — compara e troca muito.
+
+  2. Faz muitas trocas desnecessárias
+     Troca quase toda hora, mesmo se a lista estiver quase ordenada.
+
+  3. Pouco usado na prática
+     Só é bom pra estudo; na vida real, algoritmos melhores são preferidos.   
+                 
+
+
   
